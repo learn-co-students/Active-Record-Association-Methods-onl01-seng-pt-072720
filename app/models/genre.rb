@@ -19,5 +19,6 @@ class Genre < ActiveRecord::Base
       artist_array << artist.name
     end 
     artist_array.uniq
+    # self.artists.map(&:name)
   end
 end
